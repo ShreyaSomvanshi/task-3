@@ -4,6 +4,7 @@
   "description": "first backend task",
   "main": "index.js",
   "scripts": {
+    "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -11,5 +12,9 @@
     "backend"
   ],
   "author": "Shreya Singh",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "url": "^0.11.4"
+  }
 }
